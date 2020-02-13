@@ -1,6 +1,13 @@
-import java.util.Arrays;
 
-// Check whether there are any duplicate elements in the array.
+/**
+*  Question: Find if the array contains a duplicate
+*  Source url: BOOK: DSA made Easy, pageNo-301 , Problem 1. 
+*  Techniques used: Sorting
+*  Complexity = O(nlogn)
+*/
+
+
+import java.util.Arrays;
 
 class FindDuplicate {
   public static void main(String args[]) {
@@ -19,3 +26,5 @@ class FindDuplicate {
       }
   }
 }
+
+// complexity = O(nlogn)
